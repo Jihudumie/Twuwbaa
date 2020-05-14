@@ -1,20 +1,20 @@
 {
   "name": "Twuwbaa",
-  "description": "A FFMpeg Wrapper inside @Telegram",
+  "description": "A Khamiss Wrapper inside @Telegram",
   "keywords": [
     "telegram",
     "best",
     "indian",
-    "ffmpeg",
+    "khamiss",
     "bot",
     "3",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SpEcHiDe/FFMpegBot",
+  "repository": "https://github.com/Jihudumie/Twuwbaa",
   "success_url": "https://telegram.dog/SpEcHlDe",
-  "website": "https://github.com/SpEcHiDe/FFMpegBot",
+  "website": "https://github.com/Jihudumie/Twuwbaa",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env mode",
