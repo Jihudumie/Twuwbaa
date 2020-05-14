@@ -43,7 +43,7 @@ class Development(Config):
 ```
 
 
-## [@SpEcHlDe](https://telegram.dog/ThankTelegram)
+## [@Huduma](https://telegram.dog/ThankTelegram)
 
 - Only four of the configuration / environment variables are mandatory.
 - This is because of `pyrogram.errors.API_ID_PUBLISHED_FLOOD`
