@@ -24,7 +24,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 if __name__ == "__main__":
     gwendesha = dict(
-        root="ffmpegbot/gwendesha"
+        root="khamiss/gwendesha"
     )
     app = pyrogram.Client(
         "khamiss",
