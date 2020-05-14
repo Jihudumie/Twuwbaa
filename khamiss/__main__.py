@@ -23,14 +23,14 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
 if __name__ == "__main__":
-    plugins = dict(
-        root="ffmpegbot/plugins"
+    ngwendesha = dict(
+        root="ffmpegbot/ngwendesha"
     )
     app = pyrogram.Client(
         "khamiss",
         api_id=APP_ID,
         api_hash=API_HASH,
-        plugins=plugins,
+        ngwendesha=ngwendesha,
         bot_token=TG_BOT_TOKEN,
         workers=TG_UPDATE_WORKERS_COUNT
     )
