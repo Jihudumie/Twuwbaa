@@ -53,7 +53,7 @@ class Development(Config):
     - `AUTH_USERS`: space sperated IDs of users who are allowed to use the bot
     - `TG_UPDATE_WORKERS_COUNT`: Number of workers to use. `1` is the recommended amount see for yourself what works best!
 - The bot should work without setting the non-mandatory environment variables.
-- Please report any issues to the support group: [@SpEcHlDe](https://t.me/joinchat/FrAVvUjG4FDOyhR3b-TEJg)
+- Please report any issues to the support group: [@Huduma](https://t.me/Huduma)
 
 
 ## Credits, and Thanks to
