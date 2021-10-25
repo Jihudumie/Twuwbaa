@@ -1,20 +1,20 @@
 {
-  "name": "Twuwbaa",
-  "description": "A Khamiss Wrapper inside @Telegram",
+  "name": "FFMpegBot",
+  "description": "A FFMpeg Wrapper inside @Telegram",
   "keywords": [
     "telegram",
     "best",
     "indian",
-    "khamiss",
+    "ffmpeg",
     "bot",
     "3",
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Jihudumie/Twuwbaa",
-  "success_url": "https://telegram.dog/HabariTz",
-  "website": "https://github.com/Jihudumie/Twuwbaa",
+  "repository": "https://github.com/SpEcHiDe/FFMpegBot",
+  "success_url": "https://telegram.dog/SpEcHlDe",
+  "website": "https://github.com/SpEcHiDe/FFMpegBot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env mode",
@@ -22,11 +22,11 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "1062407"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "9d60b616b7078456a6549a98f3896ac7"
+      "value": ""
     },
     "TG_BOT_TOKEN": {
       "description": "You can create a bot using @BotFather",
@@ -34,10 +34,14 @@
     },
     "AUTH_USERS": {
       "description": "You can create a bot using @BotFather",
-      "value": "1041455290 -1001243018219"
+      "value": "7351948 -1001220993104"
     },
     "TG_UPDATE_WORKERS_COUNT": {
       "description": "Number of workers to use. `1` is the recommended amount see for yourself what works best!",
+      "required": false
+    },
+    "TMP_DOWNLOAD_DIRECTORY": {
+      "description": "This is required for the plugins involving the file system.",
       "required": false
     },
     "EVAL_CMD_TRIGGER": {
@@ -51,7 +55,7 @@
   },
   "addons": [],
   "buildpacks": [{
-    "url": "https://github.com/Jihudumie/Twuwbaa"
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   }, {
     "url": "heroku/python"
   }],
